@@ -60,6 +60,6 @@ def test_algorithm(func, data_string):
     end_time = time.time()
     return (end_time - start_time)
 
-print(test_algorithm(bubble_sort, lift))
-print(test_algorithm(selection_sort, lift))
-print(test_algorithm(merge_sort, lift))
+print("BUBBLE SORT:    " + str(test_algorithm(bubble_sort, lift)))
+print("SELECTION SORT: " + str(test_algorithm(selection_sort, lift)))
+print("MERGE SORT:     " + str(test_algorithm(merge_sort, lift)))
