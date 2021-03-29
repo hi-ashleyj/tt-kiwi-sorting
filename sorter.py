@@ -107,5 +107,8 @@ print("MERGE SORT:          " + str(test_algorithm(merge_sort, ((lift + ",") * 0
 
 print("\nDisplaying Graph...")
 
-pllt.plot(merge_sort(lift.split(",")), label=("beans"))
+pllt.title("Sorted Kiwi Data")
+pllt.xlabel("Number in dataset")
+pllt.ylabel("Weight")
+pllt.plot(merge_sort(lift.split(",")), label=("Weight"))
 pllt.show()
